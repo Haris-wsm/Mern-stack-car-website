@@ -19,6 +19,7 @@ const LogoText = styled.div`
     font-bold
     text-black
     m-1
+    
 `}
 `;
 

@@ -9,7 +9,6 @@ const NavbarContainer = styled.div`
   ${tw`
     w-full
     max-w-screen-2xl
-    min-w-full
     flex
     flex-row
     items-center
@@ -19,7 +18,12 @@ const NavbarContainer = styled.div`
   `}
 `;
 
-const LogoContainer = styled.div``;
+const LogoContainer = styled.div`
+  ${tw`
+  flex
+  items-center
+`}
+`;
 
 function Navbar() {
   return (
